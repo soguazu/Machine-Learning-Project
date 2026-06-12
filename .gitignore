@@ -1,0 +1,40 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment / secrets
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tooling caches
+.ruff_cache/
+.pytest_cache/
+
+# Data & models (keep these out of git; track with DVC/storage if needed)
+data/raw/
+data/interim/
+data/processed/
+models/
+*.csv
+*.parquet
+*.pkl
+*.joblib
+*.h5
+
+# Reports output
+reports/figures/
+
+# OS / editor cruft
+.DS_Store
+.idea/
+.vscode/

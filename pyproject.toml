@@ -1,0 +1,31 @@
+[project]
+name = "boilerplate-ds"
+version = "0.1.0"
+description = "Reusable data-science project boilerplate"
+readme = "README.md"
+requires-python = ">=3.14.6"
+dependencies = [
+    "ipykernel>=6.30.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.0",
+    "numpy>=2.4.6",
+    "pandas>=3.0.3",
+    "scikit-learn>=1.9.0",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.0",
+    "ruff>=0.13.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py314"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
