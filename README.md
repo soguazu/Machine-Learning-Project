@@ -5,6 +5,10 @@ A reusable, opinionated **data-science project starter** managed with
 the structure, dependencies, and tooling are already wired up so you can focus
 on the data instead of the plumbing.
 
+> 📄 **Project docs:** see [`docs/overview.md`](docs/overview.md) for the current
+> project — predicting medical/insurance charges from personal attributes
+> (problem statement, data dictionary, modeling approach, and evaluation).
+
 ---
 
 ## Table of contents
